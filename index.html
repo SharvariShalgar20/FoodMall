@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharvari's Food Mall</title>
+    <link rel="stylesheet" href="FoodMall.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+</head>
+<body>
+  <header>
+    <div class="logo">
+        <h1>Sharvari's Food Mall</h1>
+    </div>
+    <a href="addToCart.html"><button class="btn btn-primary me-md-2" type="button" >View Cart</button></a>
+
+</header>
+
+
+    <section class="main-content">
+        
+        <div class="facility-details">
+            <h2 id="facility-title">Welcome to Sharvari's Food Mall!</h2>
+            <p id="facility-pricing"></p>
+        </div>
+    </section>
+    <div class="album py-5 bg-body-tertiary">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm" data-item="burger">
+              <img src="images/img1.png" class="card-img-top" alt="Burger" width="100%" height="225">
+              <div class="card-body">
+                <p class="card-text">Burger</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col">
+            <div class="card shadow-sm" data-item="pasta">
+              <img src="images/img2.png" class="card-img-top" alt="Pasta" width="100%" height="225">
+              <div class="card-body">
+                <p class="card-text">Pasta</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm" data-item="fries">
+              <img src="images/img3.png" class="card-img-top" alt="Fries" width="100%" height="225">
+              <div class="card-body">
+                <p class="card-text">Fries</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Add to cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="itemDetails" class="modal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="item-name">Item Name</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img id="item-image" src="" alt="Item Image" class="img-fluid">
+            <p id="item-description"></p>
+            <p id="item-pricing"></p>
+            <p id="item-delivery"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <footer>
+        <p>&copy; 2025 Sharvari's Food Mall. All rights reserved.</p>
+    </footer>
+
+    <script src="FoodMall.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+</html>
