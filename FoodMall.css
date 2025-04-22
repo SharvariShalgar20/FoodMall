@@ -1,0 +1,95 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header h1 {
+    font-size: 36px;
+    color: beige;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.image-container {
+    width: 40%;
+}
+
+#facility-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.facility-details {
+    width: 50%;
+}
+
+.facility-details h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+.facility-details p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0e3d69;
+    color: white;
+    margin-top: 20px;
+}
+
+.btn-primary {
+    background-color: #2a5685; 
+    border-color: #98bee7;
+}
+
+.btn-primary:hover {
+    background-color: #81b1e4; 
+    border-color: #13385f; 
+}
+
+header {
+    position: relative; 
+    padding: 20px;
+    background-color: #0e3d69;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
